@@ -1,0 +1,8 @@
+1720002095919 : GET / New Req Received
+1720002096225 : GET /favicon.ico New Req Received
+1720002290361 : GET /about New Req Received
+1720002290629 : GET /favicon.ico New Req Received
+1720002303246 : GET /search New Req Received
+1720002303376 : GET /favicon.ico New Req Received
+1720002615420 : GET /about?name=%22john%22id=%2223%22 New Req Received
+1720002615738 : GET /favicon.ico New Req Received
