@@ -9,7 +9,16 @@ app.use('/admin',adminRoutes )
  
 app.use('/user',userRoutes)
  
+app.use(function(req,res,next){
+    console.log("Middleware called " + req.method +  req.url);
+    next();
  
+})
+
+//Template Engine - EJS
+app.set('views', './views')
+ 
+app.set('view engine','ejs') //localhost:8087/admin/home
 //app.METHOD(PATH, HANDLER)
 app.get('/',(req,res) =>{
     res.send("Hello from Home page")
